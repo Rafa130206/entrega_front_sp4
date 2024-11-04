@@ -2,8 +2,8 @@
 
 export default function Contato() {
     return (
-        <div className="flex flex-col items-center">
-            <h1 className='text-center pt-2 text-[3vw] md:text-4xl lg:text-5xl font-bold'>Entre em contato conosco!</h1>
+        <div className="flex flex-col items-center mb-6">
+            <h1 className='text-center my-6 pt-2 text-[3vw] md:text-4xl lg:text-5xl font-bold'>Entre em contato conosco!</h1>
             <section className='m-5 w-full flex justify-center'>
                 <form action="contato" method='get' className="flex flex-col w-[25vw] md:w-[300px] lg:w-[440px] bg-gray-200 rounded-lg p-5">
                     <fieldset className="border-none flex flex-col">
