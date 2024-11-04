@@ -1,8 +1,8 @@
 export type TipoUsuario = {
     $cpf: string;
-    $nome: string;
-    $rg: string;
-    $cep: string;
+    nome: string;
+    rg: string;
+    cep: string;
 }
 
 export type TipoCarro = {

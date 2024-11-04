@@ -12,13 +12,13 @@ export default function Cadastro() {
             </div>
             <div className="">
                 <div className="flex flex-col lg:flex-row items-center justify-center">
-                    <a href="/cadastro/usuario">
+                    <a href="/cadastro/usuarios">
                         <div className="bg-indigo-600 rounded-lg p-6 m-6 flex flex-col items-center justify-center w-[60vw] sm:w-[40vw] lg:w-[25vw]">
                             <Image src={User} alt="Usuario" className="w-7/12 m-6 lg:w-5/12"/>
                             <p className="text-white font-semibold text-lg lg:text-2xl">Cadastrar Usuário</p>
                         </div>
                     </a>
-                    <a href="/cadastro/carro">
+                    <a href="/cadastro/carros">
                         <div className="bg-indigo-600 rounded-lg p-6 m-6 flex flex-col items-center justify-center w-[60vw] sm:w-[40vw] lg:w-[25vw]">
                             <Image src={Carro} alt="Carro" className="w-7/12 m-6 lg:w-5/12"/>
                             <p className="text-white font-semibold text-lg lg:text-2xl">Cadastrar Carro</p>
@@ -26,13 +26,13 @@ export default function Cadastro() {
                     </a>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center justify-center">
-                    <a href="/cadastro/moto">
+                    <a href="/cadastro/motos">
                         <div className="bg-indigo-600 rounded-lg p-6 m-6 flex flex-col items-center justify-center w-[60vw] sm:w-[40vw] lg:w-[25vw]">
                             <Image src={Moto} alt="Moto" className="w-7/12 m-6 lg:w-5/12"/>
                             <p className="text-white font-semibold text-lg lg:text-2xl">Cadastrar Moto</p>
                         </div>
                     </a>
-                    <a href="/cadastro/caminhao">
+                    <a href="/cadastro/caminhoes">
                         <div className="bg-indigo-600 rounded-lg p-6 m-6 flex flex-col items-center justify-center w-[60vw] sm:w-[40vw] lg:w-[25vw]">
                             <Image src={Caminhao} alt="Caminhao" className="w-7/12 m-6 lg:w-5/12"/>
                             <p className="text-white font-semibold text-lg lg:text-2xl">Cadastrar Caminhão</p>
