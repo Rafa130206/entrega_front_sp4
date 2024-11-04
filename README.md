@@ -46,7 +46,7 @@ O sistema apresenta 8 telas:
 
 ### Instalação
 
-LINK DO REPOSITÓRIO DA API DE JAVA: https://github.com/Rafa130206/entrega_java_sprint4
+LINK DO REPOSITÓRIO DA API DE JAVA: https://github.com/Rafa130206/entrega_java_sprint4<br/>
 Para rodar esta aplicação é necessário ter o Node.js instalado.
 Após isso, abra o projeto e inicie um terminal. Nele digite (sem aspas""):<br/>
 "cd sp3_front_end". Em seguida "npm install" e, por último, "npm run dev" para rodar a aplicação.
