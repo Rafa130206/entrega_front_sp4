@@ -1,3 +1,4 @@
+// app/layout.tsx
 import Cabecalho from "./components/Cabecalho";
 import Rodape from "./components/Rodape";
 import '@/app/globals.css';
@@ -14,10 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Cabecalho/>
+      <body className="flex flex-col min-h-screen"> {/* Adicionei aqui */}
+        <Cabecalho />
+        <div className="flex-grow"> {/* Contêiner para o conteúdo principal */}
           {children}
-        <Rodape/>  
+        </div>
+        <Rodape />
       </body>
     </html>
   )
